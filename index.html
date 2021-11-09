@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Facebook</title>
+        <link href="fb.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo"> 
+                    <a class="logo-text" href="index.html">facebook</a>
+                </div>
+                
+                <div class="login">
+                    <form action="">
+                        <table class="login-controls">
+                                <tr>
+                                    <td><label class="login-label">Email or phone</label></td>
+                                    <td><label class="login-label">Password</label></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text"></td>
+                                    <td><input type="password"></td>
+                                    <td><input class="submit-button" type="submit" value="Log In"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><a class="forgotten" href="forgotten.html">Forgotten account?</a></td>
+                                </tr>
+                            
+                        </table>
+                    </form>
+                    
+                </div>
+            </div>
+            <div class="main-body">
+                <div class="left-section">
+                    <p class="para">Facebook helps you connect and share with the<br> people in your life.</p>
+                    <img class="image" src="fb.png" alt="Fb image">
+                </div>
+                <div class="right-section">
+                    <h1 style="margin-bottom: 10px;">Create an account</h1>
+                    <p class="para3">It's quick and easy.</p>
+                    <div class="signup-controls">
+                        <form action="hello.html" id="signup-form">
+                            
+                        <div class="signup-field name">
+                        <input name="fname" class="input1" type="text" placeholder="First name">
+                        <label for="fname" id="error" style="display: none;">Enter minimum 4 characters</label>
+
+                        <input name="sname" class="input1" type="text" placeholder="Surname">    
+                        <label for="sname" id="error" style="display: none;">Enter minimum 4 characters</label>
+                        </div>
+
+
+                        <div class="signup-field">
+                        <input name="email" class="input2" type="text" placeholder="Mobile number or email address">
+                        </div>
+
+
+                        <div class="signup-field">
+                        <input name="password" class="input2" type="password" placeholder="New password">
+                        </div>
+
+
+                        <div class="signup-field">
+                            
+                            <label style="font-weight: bold; color: grey;">Birthday</label>
+                            <br>
+
+                            
+                            <select name="day" id="day" class="dob">
+                                <option value="">Day</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">31</option>
+                            </select>
+                            
+                            <select name="month" id="month" class="dob">
+                                <option value="">Jun</option>
+                                <option value="">July</option>
+                                <option value="">Aug</option>
+                                <option value="">Sep</option>
+                            </select>
+                            
+
+                            <select name="year" id="year" class="dob">
+                                <option value="">1995</option>
+                                <option value="">1996</option>
+                                <option value="">1997</option>
+                                <option value="">1998</option>
+                            </select>
+
+                        </div>
+
+                        <div class="signup-field">
+                            
+                            <label style="font-weight: bold; color: grey;line-height: 38px">Gender</label>
+                            <br>
+                            <input type="radio" class="radio" name="gender" style="
+                            border-color: #fff;
+                            ">
+                            <label class="radio">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <input class="radio" type="radio" name="gender" style="
+                            border-color: #fff;
+                            ">
+
+                            <label class="radio">Male</label>&nbsp;&nbsp;&nbsp;
+
+                            <input type="radio" class="radio" name="gender" style="
+                            border-color: #fff;
+                            ">
+                            <label class="radio">Custom</label>
+                        
+                        </div>
+                            
+                    <p class="para2">By clicking Sign Up, you agree to our Terms, Data Policy and <br> Cookie Policy. You may receive SMS notifications from us and <br> can opt out at any time.</p>         
+                    
+                    <div>
+                            <input type="submit" value="Sign Up" name="signup" style="width: 190px;margin-top: 10px; height: 33px;background: green;font-weight: bold;color: white;font-size: 18px;border-radius: 4px;">
+                        </div>    
+                        
+                    <h5 style="color: blue; font-weight: 500; float: left;">Create a page<h5 style="font-weight:500; float:left;">&nbsp;for celegrity, band or business.</h5></h5>
+                            <br></form>
+                            </div>
+                    </div>
+
+            </div>
+
+            <div class="footer">
+
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+        <script src="https://ajax.microsoft.com/ajax/jquery.validate/1.7/additional-methods.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>

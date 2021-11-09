@@ -1,0 +1,135 @@
+.header{
+    background: #3b5998;
+    width: 100%;
+    height: 95px;
+}
+
+.logo{
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+
+.logo-text{
+ color: #fff;
+ font-size: 35px;
+ font-weight: bold;
+ margin-left: 170px;
+ text-decoration: none;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+    
+.login{
+width: 50%;
+float: left;
+}
+
+body{
+margin: 0;
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login-label{
+    color: #fff;
+    font-size: 12px;
+}
+
+.login-controls{
+    margin-left: 115px;    
+}
+
+.forgotten{
+   font-size: 12px;
+   color: #9cb4d8;
+   text-decoration: none;
+}
+
+.submit-button{
+    background: #4267b2;
+    color: #fff;
+    height: 20px;
+    border-color: #29487d;
+    cursor: pointer;
+    
+}
+
+.submit-button:hover{
+    background: darkblue
+}
+
+.main-body{
+    background: linear-gradient(white, #d3d8e8);
+    width: 100%;
+    height: 520px;
+}
+
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 134px;
+    padding-top: 52px;
+
+}
+
+.right-section{
+    width: 39%;
+    float: left;
+}
+.image{
+    width: 581px;
+}
+
+.para{
+    font-weight: 600;
+    font-size: 21px;
+}
+#month{
+    width: 70px;;
+}
+.dob{
+    height: 29px;
+    margin-top: 10px;
+    width: 70px;
+    border: solid 1px;
+}
+.radio{
+    padding-top: 20px;
+    font-weight: 600;
+}
+.para2{
+    color: grey;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.para3{
+    font-weight: 600px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.input1{
+    height: 8px; 
+    width: 180px;
+    border-radius: 5px 5px 5px 5px;
+    background: #fff;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.input2{
+    height: 8px; 
+    width: 386px;
+    border-radius: 5px 5px 5px 5px;
+    background: #fff;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+                    
+}

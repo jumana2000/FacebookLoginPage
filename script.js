@@ -11,6 +11,7 @@ $(document).ready(function(){
                 minlength:4
             },
             email:{
+                required:true,
                 email:true,
                 Number:true
             },
@@ -33,6 +34,7 @@ $(document).ready(function(){
         },
         messages:{
             fname:"Enter first name",
+            required:"Enter the details",
             minlength:"Enter atleast 4 characters"
             }
         })

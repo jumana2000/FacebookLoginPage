@@ -6,4 +6,4 @@ This form is validated using jQuery.
 
 # Demo
 
-This site will be available in this link https://jumana2000.github.io/FacebookLoginPage/
+Site will be available in this domain : https://jumana2000.github.io/FacebookLoginPage/
